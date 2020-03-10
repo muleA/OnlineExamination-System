@@ -1,0 +1,165 @@
+/*  style for navigation bar */
+
+.navbar-inverse {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(58, 115, 177)!important;
+    color: black;
+    
+  }
+
+
+
+.nav a  ,.navbar-header a  {
+    color: whitesmoke!important;
+    font-weight: bolder;
+   
+    font-size: large;
+    font-style: normal!important;
+  }
+
+
+    .nav a:hover  {
+        color: rgb(13, 212, 79)!important;
+        visibility: visible;
+      }
+    
+     
+      .navbar-right
+      {
+
+        text-align: center!important;
+      
+      }
+
+      /*  */
+    
+
+
+.form-control
+{
+  margin-bottom: 3vw;
+}
+
+
+
+body
+{
+overflow-x: hidden;
+ 
+}
+
+
+
+ #L {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+    color: rgb(235, 15, 15);
+}
+
+
+.form-module {
+  position: relative;
+  background-color: wheat;
+  max-width: 320px;
+  width: 100%;
+ 
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.btn
+{
+  width: 100%;
+}
+
+
+ul li a{
+
+  color: #ffffff;
+}
+
+div .dropdown-menu
+{
+
+  background-color: rgb(58, 115, 177);
+  color: whitesmoke;
+
+}
+
+div .dropdown-menu a:hover
+{
+  text-decoration: none;
+}
+
+
+/*  style for login form  */
+.login-form {
+  width: 340px;
+    margin: 50px auto;
+}
+  .login-form form {
+    margin-bottom: 15px;
+      background: #f7f7f7;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+  }
+  .login-form h2 {
+      margin: 0 0 15px;
+  }
+  .form-control, .btn {
+      min-height: 38px;
+      border-radius: 2px;
+  }
+  .btn {        
+      font-size: 15px;
+      font-weight: bold;
+  }
+
+
+ .list-group-item:nth-child(odd)
+{
+background-color: #DFF0D8;
+}
+
+
+
+@media screen and (max-width: 768px) {
+ .account{
+
+   margin-left:-6vw!important;
+ }
+}
+
+footer {
+  padding: 25px;
+  background-color: rgb(58, 115, 177);
+  color: whitesmoke;
+  font-weight: bolder;
+  font-family: 'Fondamento', cursive;
+  font-size: large;
+}
+
+
+.notification .badge {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+
+.notification:hover {
+  background: red;
+}
+
+
+ #control{
+margin-bottom:2vw;
+
+}
